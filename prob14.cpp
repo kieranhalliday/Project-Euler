@@ -30,15 +30,6 @@ void Q14(){
 	printf("Q14: %ld\n",holder);
 }
 
-
-char* swap(char *num,int a, int b){
-	char temp=num[a];
-	num[a]=num[b];
-	num[b]=temp;
-	return num;
-}
-
-
 int main(){
 	Q14();
 }
