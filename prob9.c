@@ -17,7 +17,6 @@ Find the product abc.
 int main (){
 	int sum=1000;
 	int a,b,c;
-	//C^2=a^2+b^2
 
 	for(a=1;a<500;a++){
 		for(b=1;b<500;b++){
