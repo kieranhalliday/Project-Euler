@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// What is the 10 001st prime number?
 int main (void){
 	int counter=2;
 	int index=0;
