@@ -52,11 +52,11 @@ void p28() {
             if(howManyBlankSquaresBesideMe(grid, row, col) >= 3){
                 //corner square
                 if(row < col) nextDirection = DOWN;
-                if(row > col) nextDirection = LEFT;
+                if(row >= col) nextDirection = LEFT;
             }
         } else if(grid[row+1][col] != 0){
             // direction is either right or up
-            if(row < col) nextDirection = RIGHT;
+            if(row <= col) nextDirection = RIGHT;
             if(row > col) nextDirection = UP;
         }
         
