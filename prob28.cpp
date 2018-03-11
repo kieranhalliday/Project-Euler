@@ -4,7 +4,6 @@
 //
 //  Created by Halliday, Kieran on 2018-03-06.
 //  Copyright © 2018 Halliday, Kieran. All rights reserved.
-//
 
 #include <iostream>
 #include <vector>
