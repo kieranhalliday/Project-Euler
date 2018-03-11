@@ -5,6 +5,8 @@
 //  Created by Halliday, Kieran on 2018-03-06.
 //  Copyright © 2018 Halliday, Kieran. All rights reserved.
 
+// What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed in a spiral way?
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -30,7 +32,6 @@ int howManyBlankSquaresBesideMe(vector< vector<int> > &grid, int row, int col){
 	return retVal;
 }
 
-// What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed in the same way?
 void p28() {
 	int counter = 1, sum = 0, nextDirection = RIGHT;
 	
