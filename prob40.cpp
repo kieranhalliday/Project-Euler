@@ -23,9 +23,11 @@ int main(int argc, const char * argv[]) {
 
 	int valueToAddNext = 0, digitIndex = 0, count = 0, product = 1;
 	
+	// Cycle through all digits while counting up
 	for(; digitIndex<=MAX; digitIndex+=to_string(valueToAddNext).length()){
 		valueToAddNext++;
 
+		// Check if by adding the next number, we will pass one of the desired indices (1,10,100... etc)
 		if(digitIndex <= pow(10,count) && digitIndex+to_string(valueToAddNext).length() >= pow(10,count)){
 			cout << to_string(valueToAddNext)[pow(10,count)-digitIndex-1] << endl;
 
